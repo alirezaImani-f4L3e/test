@@ -14,27 +14,29 @@ setInterval(function() {
 
 
 
-function Person(name, family, age, height, wheight) {
-    let first = name[0];
-    first = first.toUpperCase();
+// function Person(name, family, age, height, wheight) {
+//     let first = name[0];
+//     first = first.toUpperCase();
 
-    name = `${first}${name.slice(1,name.length)}`
-
-
-    this.name = name;
-    this.family = family;
-    this.age = age;
-    this.height = height;
-
-    this.wheight = wheight;
-    this.BMI = function() {
-        let Bmi = wheight / ((height / 100) * (height / 100));
-        return Bmi;
-    }
+//     name = `${first}${name.slice(1,name.length)}`
 
 
-}
+//     this.name = name;
+//     this.family = family;
+//     this.age = age;
+//     this.height = height;
 
-var person1 = new Person("ali", "imani ", 20, 186, 94);
-console.log(person1);
-console.log(person1.BMI());
+//     this.wheight = wheight;
+//     this.BMI = function() {
+//         let Bmi = wheight / ((height / 100) * (height / 100));
+//         return Bmi;
+//     }
+
+
+// }
+
+// var person1 = new Person("ali", "imani ", 20, 186, 94);
+// console.log(person1);
+// console.log(person1.BMI());
+
+alert("hello world");
